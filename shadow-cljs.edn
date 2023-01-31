@@ -1,0 +1,15 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[meander/epsilon "0.0.650"]]
+
+ :builds
+ {
+  :app {:target :node-library
+            :output-to "release/notes_01/src/lib.js"
+            :exports-var notes-01.start/main
+            :compiler-options {:infer-externs false}
+            :release {:compiler-options {:optimizations :simple}}}
+  }}
