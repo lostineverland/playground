@@ -1,0 +1,7 @@
+[2023-W04]
+  - notes-01
+    - playing with meander
+    - I thought I had my problem solved but the problem lies in the order of execution
+    - m/search is a macro, and it expects the full expression to be given as an argument
+    - the problem is that macro's run at compile time, so I can't pass a variable because it will not be resolved before the meander algo tries to figure out how to handle it
+    - so it's like all my queries are wired (which in reality is always true, but feels wrong)

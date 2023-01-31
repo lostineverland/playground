@@ -12,4 +12,6 @@ npx create-cljs-project playground
 
 ## Notebooks
 
-I like to keep trck of anything I try, so each item should have an entry in the notebook.
+I like to keep track of anything I try, so each item should have an entry in the notebook.
+
+- [meander & macros](./src/notes_01/README.md)
